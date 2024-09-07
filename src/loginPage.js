@@ -22,7 +22,9 @@ const LoginPage = () => {
   return (
     <div className="login-page">
       <div className="login-container">
-        <h2>Login to NextBarCode</h2>
+        <h2>Login to <span style="background: linear-gradient(90deg, #f7ff00, #db36a4); 
+           -webkit-background-clip: text; 
+           color: transparent>NextBarCode</span></h2>
         <form onSubmit={formik.handleSubmit}>
           <div>
             <input
