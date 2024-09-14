@@ -1,12 +1,17 @@
 import React from 'react';
-import LoginPage from './loginPage'
+import { Routes, Route } from 'react-router-dom';
+import LoginPage from './components/LoginPage';
+import JobApplyPage from './components/JobApplyPage';
+import SerialNumberPage from './components/SerialNumberPage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <LoginPage />
-    </div>
+    <Routes>
+      <Route path="/" element={<LoginPage />} />
+      <Route path="/job-apply" element={<JobApplyPage />} />
+      <Route path="/serial-number" element={<SerialNumberPage />} />
+    </Routes>
   );
-}
+};
 
 export default App;
