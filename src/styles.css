@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('C:\Users\mackr\my-website\src\new.jpg');
+  background-image: url('../src//new.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
