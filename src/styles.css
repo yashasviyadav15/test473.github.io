@@ -113,3 +113,7 @@ body {
 input[type="date"] {
   cursor: pointer;
 }
+p {
+  /* text-align: center; */
+  color: red;
+}
